@@ -18,7 +18,7 @@ This project demonstrates a real-time intelligent parking system:
 ---
 
 ##  Architecture
-![alt text](docs/screenshots/solution-architecture.png)
+![alt text](docs/solution-architecture.png)
 
 ---
 
@@ -88,13 +88,14 @@ docker compose up -d
 python kafka/consumer_parking.py
 ```
 ### 3. Open Blender
-```bash
+
 Open blender/parking_scene.blend
 Run the Python script inside Blender
-```bash
-```
+
+
 ###  Services
-```bash
+```
+
 Kafka → localhost:9092
 ```
 ```bash
@@ -105,7 +106,6 @@ pgAdmin → http://localhost:5050
 ```
 ```bash
 Kafka UI → http://localhost:8080
-```bash
 ```
 ### Data Model
 places: current state of each parking spot
